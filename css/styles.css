@@ -149,14 +149,17 @@ index main ==============================================================
 
 /*features*/
 .features-list > li {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.5;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   width: 270px;
   height: 101px;
   list-style: none;
+}
+.features-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-align: center;
 }
 .features-text {
   font-style: normal;
@@ -179,18 +182,21 @@ index main ==============================================================
   background-color: var(--background-gray-color);
 }
 .team-list > li {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.18;
-  text-align: center;
   box-sizing: content-box;
   width: 270px;
   height: 368px;
   background: var(--white-color);
   list-style: none;
 }
+.team-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
 .team-text {
   color: var(--main-gray-color);
+  text-align: center;
 }
 
 /*
